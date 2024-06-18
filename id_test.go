@@ -75,5 +75,5 @@ func ExampleNewID() {
 	id := NewID[myID]()
 
 	fmt.Println(reflect.TypeOf(id))
-	// Output: id.myID
+	// Output: ident.myID
 }
